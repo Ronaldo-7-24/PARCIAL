@@ -1,0 +1,483 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.cabecerafijo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #09248657;
+    color: #fff;
+    padding: 20px 30px;
+    z-index: 1000;
+}
+
+.cajaprincipal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.menubotones ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menubotones ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.menubotones ul li:first-child {
+    margin-left: 0;
+}
+
+.pintado {
+    padding: 10px;
+    background-color: #007aff;
+    border-radius: 10px;
+}
+
+.menubotones ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.menubotones ul li a:hover {
+    background-color: #007aff;
+}
+
+/* Estilos para el cartel */
+.cartel {
+    background-color: #f0f0f5;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.carteluno {
+    max-width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    padding: 100px 20px;
+    border-radius: 5px;
+}
+
+.carteluno h1 {
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.carteluno h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #007aff;
+}
+
+/* Estilos para la primera sección (iPhone) */
+.primera-seccion {
+    background-image: url('/image/fondo1.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.contenedor01 {
+    max-width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    padding: 100px 20px;
+    border-radius: 5px;
+    background-color: rgba(248, 248, 248, 0);
+    color: #fff;
+}
+
+.contenedor01 h1 {
+    font-size: 36px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para la segunda sección (Mac) */
+.segunda-seccion {
+    background-color: #e0e0e0;
+    padding: 50px 0;
+}
+
+.segunda-seccion h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.segunda-seccion p {
+    color: #666;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.contenedordos {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.division {
+    flex: 1;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.division img {
+    max-width: 100%;
+    height: 300px;
+    border: 10px solid #ccc;
+    border-radius: 10px;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.division img:hover {
+    transform: scale(1.1);
+    border-color: #007aff;
+}
+
+.division h1 {
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.division h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.division p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.division a {
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.division a:hover {
+    background-color: #007aff;
+}
+
+/* Estilos para la tercera sección (iPad) */
+.tercera-seccion {
+    background-color: #fafafa;
+    padding: 50px 0;
+}
+
+.tercera-seccion h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.tercera-seccion p {
+    color: #666;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.contenedortres {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.column img {
+    max-width: 100%;
+    height: 180px;
+    padding: 5px;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.column img:hover {
+    transform: scale(1.1);
+    border-color: #007aff;
+}
+
+.column p {
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.botonlibre {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.tercera-seccion .botonlibre a {
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: #007aff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.tercera-seccion .botonlibre a:hover {
+    background-color: #000;
+}
+
+/* Estilos para la cuarta sección (Apple Watch) */
+.cuarta-seccion {
+    background-color: #f0f0f5;
+    padding: 50px 0;
+}
+
+.cuarta-seccion h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.cuarta-seccion p {
+    color: #666;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.contenedorcuatro {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.column img {
+    max-width: 100%;
+    height: 180px;
+    padding: 5px;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.column img:hover {
+    transform: scale(1.1);
+    border-color: #007aff;
+}
+
+.column p {
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.botonlibre02 {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.cuarta-seccion .botonlibre02 a {
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: #007aff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.cuarta-seccion .botonlibre02 a:hover {
+    background-color: #000;
+}
+
+/* Estilos para la quinta sección (Apple Ecosystem) */
+.quinta-seccion {
+    background-color: #e5f2fa;
+    padding: 50px 0;
+}
+
+.quinta-seccion h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.quinta-seccion p {
+    color: #666;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.contenedorcinco {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.column {
+    flex-basis: 300px;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.column img {
+    max-width: 100%;
+    height: 180px;
+    padding: 5px;
+    border: 4px solid #bbe5e6;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #333;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.column img:hover {
+    transform: scale(1.1);
+    border-color: #007aff;
+}
+
+.column p {
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.column a {
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: #3ebbf5;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.column a:hover {
+    background-color: #000;
+}
+
+/* Footer */
+.footer {
+    background-color: #030d36;
+    color: #fff;
+    padding: 20px;
+}
+
+.filas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+h2, p {
+    color: #fff;
+    margin: 0;
+}
+
+.social-icons1 {
+    display: flex;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #d5f0f4;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #007aff;
+}

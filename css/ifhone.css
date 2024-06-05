@@ -1,0 +1,248 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.cabecerafijo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #33333338;
+    color: #fff;
+    padding: 20px 30px;
+    z-index: 1000;
+}
+
+.cajaprincipal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.menubotones ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menubotones ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.menubotones ul li:first-child {
+    margin-left: 0;
+}
+
+.pintado {
+    padding: 10px;
+    background-color: #007aff;
+    border-radius: 10px;
+}
+
+.menubotones ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.menubotones ul li a:hover {
+    background-color: #007aff;
+}
+
+.cartel {
+    background-color: #f0f0f500;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+}
+
+.carteluno {
+    width: 100%;
+    height: 850px;
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.contenido-cartel {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+    padding: 200px 20px;
+}
+
+.contenido-cartel h1 {
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contenido-cartel h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #007aff;
+}
+
+.iphone-seccion {
+    background-color: #fafafa;
+    padding: 50px 0;
+}
+
+.iphone-seccion h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.iphone-seccion p {
+    color: #666;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.contenedoriphone {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.column img {
+    max-width: 70%;
+    height: auto;
+    padding: 0;
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* Agrega una transición para el efecto de agrandamiento */
+}
+
+.column img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen al pasar el mouse por encima */
+}
+
+.column h3,
+.column p {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.column:nth-child(odd) img {
+    order: 2;
+}
+
+.column:nth-child(odd) h3,
+.column:nth-child(odd) p {
+    order: 1;
+}
+
+.botonlibre {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.iphone-seccion .botonlibre a {
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: #007aff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.iphone-seccion .botonlibre a:hover {
+    background-color: #000;
+}
+
+.footer {
+    background-color: #030d36;
+    color: #fff;
+    padding: 20px;
+}
+
+.filas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+h2, p {
+    color: #fff;
+    margin: 0;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #d5f0f4;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #007aff;
+}
